@@ -1,0 +1,65 @@
+.wrapper {
+    top:100px;
+    width:95%;
+    padding:100px;
+
+
+}
+
+#body {
+  background-color: #4aaaa5;
+
+}
+
+.header {
+    position: fixed;
+    /* top: 7px; */
+    width: 100%;
+    margin: 0 0 26px;
+    /* padding: 40px; */
+    background-color: #ffffff;
+    z-index: 98;
+    border-color: #cccccc;
+
+}
+
+.headerbox {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+/* .myname { */
+    /* width: 100%;
+    max-width: 960px;
+    margin: 0;
+    background-color: #4aaaa5; */
+/* }  */
+
+
+.myname {
+    float: left;
+    top: 0;
+    left: 30px;
+    /* margin:20px; */
+    padding: 20px;
+    width: 250px;
+    height: 75px;
+    background-color: #4aaaa5;
+    z-index: 99;
+}
+
+.name {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight:600;
+    text-align:center;
+    color:
+}
+
+.test {
+    position:relative;
+    width: 20%;
+    margin: 20px;
+    padding: 40px;
+    background-color: #ffffff
+}
