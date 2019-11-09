@@ -37,7 +37,7 @@ body {
 .links {
     text-decoration: none;  
     float: right;
-    margin-top: 34px;
+    margin-top: 32px;
 }
 
 .link2 {
@@ -46,8 +46,8 @@ body {
     margin-left: 15px;
     padding-left: 15px;
     margin-top: 25px;
-    font-size: 25px;
-    line-height: 20px;
+    font-size: 21px;
+    line-height: 23px;
     border-left: 1px solid #aca8a8;
 }
 
@@ -61,14 +61,13 @@ body {
     top: 0;
     padding: 20px;
     width: 250px;
-    height: 55px;
+    height: 53px;
     background-color: #4aaaa5;
     z-index: 99;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight:700;
     text-align: center;
     color: #ffffff;
-    font-size: larger;
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
 }
@@ -78,8 +77,8 @@ body {
     font-weight:1000;
     text-align:center;
     color: #ffffff;
-    font-size: 30px;
-    line-height: 58px;
+    font-size: 28px;
+    line-height: 57px;
     text-decoration: none;    
 }
 
@@ -142,8 +141,8 @@ h1 {
 /* My picture */
 #picture {
     float: left;
-    width: 160px;
-    height: 240px;
+    width: 192px;
+    height: 288px;
     margin-right: 20px;
     margin-top: 10px;
 }
