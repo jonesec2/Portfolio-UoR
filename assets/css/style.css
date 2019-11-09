@@ -1,4 +1,4 @@
-
+/* Body */
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 18px;
@@ -8,7 +8,7 @@ body {
     /* background-image: url("../images/curls.png"); */
 }
 
-
+/* header including the nav bar */
 .header {
     position: fixed;
     /* top: 7px; */
@@ -33,13 +33,28 @@ body {
     color: #ffffff;
     background: #ffffff;
 }
-/* .myname { */
-    /* width: 100%;
-    max-width: 960px;
-    margin: 0;
-    background-color: #4aaaa5; */
-/* }  */
 
+.links {
+    text-decoration: none;  
+    float: right;
+    margin-top: 34px;
+}
+
+.link2 {
+    color: #aca8a8;
+    text-decoration: none;
+    margin-left: 15px;
+    padding-left: 15px;
+    margin-top: 25px;
+    font-size: 25px;
+    line-height: 20px;
+    border-left: 1px solid #aca8a8;
+}
+
+.link2:last-child {
+    border-right: 1px solid #aca8a8;
+    padding-right: 15px;
+}
 
 .namebox {
     float: left;
@@ -65,10 +80,10 @@ body {
     color: #ffffff;
     font-size: 30px;
     line-height: 58px;
-    text-decoration: none;
-    
-    
+    text-decoration: none;    
 }
+
+/* Main Body Text */
 
 #box2 {
     padding-top: 150px;
@@ -81,21 +96,12 @@ body {
 }
 
 .wrapper {
-    /* width: 100%; */
-    /* height: 70%; */
     max-width: 960px;
     margin: 0 auto;
-    /* padding: 10px; */
     clear: both;
     text-align:center;
     color: #ffffff;
     background: #ffffff;
-    /* top:100px;
-    width: 95%;
-    padding: 5px 10px 5px 10px;
-    background: #ffffff;
-    max-width: 960px;
-    position: relative; */
 }
 
 .box-header {
@@ -107,7 +113,6 @@ body {
     text-align:center;
     background: #ffffff;
     float: left;
-    /* top: 0; */
     margin: 0 0 40px;
     left: 10px;
     padding: 30px;
@@ -122,6 +127,8 @@ body {
     border-bottom: 1px solid #cccccc;
 }
 
+/* Header */
+
 h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
@@ -132,6 +139,7 @@ h1 {
     padding-bottom: 15px;
 }
 
+/* My picture */
 #picture {
     float: left;
     width: 160px;
@@ -140,23 +148,122 @@ h1 {
     margin-top: 10px;
 }
 
+/* Text in body */
 #body-text {
-    /* float: left; */
+
     color: #777777;
     text-align: left;
     font-size: 20px;
     font-weight: 100;
     line-height: 30px;
+}
+
+/* Footer */
+
+.footerbox {
+    width: 100%;
+    /* max-width: 960px; */
+    margin: 0 auto;
+    clear: both;
+}
+
+footer {
+    padding: 20px;
+    clear: both;
+    font-size: 12px;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+
+/* Portfolio */
+
+.project-example:nth-child(even) {
+    margin-right: 40px;
+}
+
+.project-example {
+    position: relative;
+    float: left;
+    width: 250px;
+    /* height: 250px; */
+    margin: 25px 20px 25px 20px;
+    overflow: auto;
+    opacity: 1.0;
+}
+
+.project-example:hover {
+    opacity: 0.7;
+}
+
+/* Project ex */
+
+.project-example-link {
+    position: relative;
+    float: left;
+    width: 250px;
+    /* height: 250px; */
+    margin: 25px 20px 25px 20px;
+    overflow: auto;
+    opacity: 1.0;
+    /* background: url() */
+}
+.project-example-link:hover {
+    opacity: 0.7;
+}
+.project-example-link img {
+    width: 100%;
+    border: 0 none;
+    opacity: 1.0;
 
 }
 
+.project-example img {
+    width: 100%;
+    border: 0 none;
+    opacity: 1.0;
+}
+
+#shark {
+    height: 187.5px;
+    width: 100%;
+    border: 0 none;
+    opacity: 1.0;
+}
 
 
-/* .test {
-    position:relative;
-    width: 20%;
-    margin: 20px;
-    padding: 40px;
-    background-color: #ffffff;
-    color: aqua; */
-/* } */
+h3 {
+    position: absolute;
+    /* margin-top: 15px; */
+    padding-top: 10px;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    background: #4aaaa5;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 35px;
+    border-bottom: 0;
+    bottom: 20px;
+}
+
+/* links */
+  .project-example-link a {
+    position: absolute;
+    /* margin-top: 15px; */
+    font-size: 24px;
+    padding-top: 10px;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    background: #4aaaa5;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 35px;
+    border-bottom: 0;
+    bottom: 20px;
+    text-decoration: none;  
+  }
