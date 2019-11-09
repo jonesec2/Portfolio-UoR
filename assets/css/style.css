@@ -5,7 +5,7 @@ body {
     line-height: 34px;
     color: #cccccc;
     background: url("../images/white-waves.png");
-    /* background-image: url("../images/curls.png"); */
+ 
 }
 
 /* header including the nav bar */
@@ -267,3 +267,76 @@ h3 {
     bottom: 20px;
     text-decoration: none;  
   }
+
+/* Contact */
+
+ul {
+    color: #777777;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    /* font-size: 14px; */
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    /* font-size: 14px; */
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 45px;
+    text-align: center;
+    float: left;
+    margin-left: 30px;
+
+}
+
+label {
+    display: block;
+    width: 100%;
+    color: #777777;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 5px;
+    float: left;
+
+}
+
+textarea {
+ 
+    display: block;
+     width: 100%;
+    color: #777777;
+     text-align: left;
+  /* font-size: 20px; */
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#Form ul {
+    margin-bottom: 5px;
+}
+  
+#Form li {
+    margin-bottom: 5px;
+}
+
+textarea {
+    height: 250px;
+}
